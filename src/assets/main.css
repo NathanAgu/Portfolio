@@ -13,13 +13,14 @@ html, body {
   height: 100%;
   font-family: 'Segoe UI', Tahoma, sans-serif;
   background-color: #f9f9f9;
+  background-image: 
+    linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-attachment: fixed;
   color: #333;
 }
   
 body {
   padding: 1rem 15rem;
-  background-image: 
-    linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
-  background-size: 50px 50px;
 }

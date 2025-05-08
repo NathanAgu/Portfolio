@@ -20,6 +20,7 @@ export default {
 
 <style scoped>
 main {
+  min-height: 85vh;
   padding: 2rem;
 }
 </style>
