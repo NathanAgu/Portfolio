@@ -1,24 +1,25 @@
-<script setup>
-
-</script>
-
 <template>
-  <header>
-    <p>Header</p>
-  </header>
-  <main>
-    <router-view></router-view>
+  <Navbar />
+  <main class="px-6 md:px-12 max-w-7xl mx-auto py-8">
+    <RouterView />
   </main>
-  <footer>
-    <p>2025 - Portfolio Nathan AGU</p>
-  </footer>
+  <Footer />
 </template>
 
+<script>
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+
+export default {
+  components: {
+    Navbar,
+    Footer
+  }
+}
+</script>
+
 <style scoped>
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: white;
+main {
+  padding: 2rem;
 }
 </style>
