@@ -1,4 +1,5 @@
 <template>
+  <h1>test</h1>
   <Navbar />
   <main class="px-6 md:px-12 max-w-7xl mx-auto py-8">
     <RouterView />
